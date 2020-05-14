@@ -18,7 +18,7 @@
                 </div>
                 <div class="form-group">
                     
-                    <b-form-datepicker   placeholder="Pick a Date..." id="Date" class="form-control" v-model.trim="newDate"> </b-form-datepicker>
+                    <b-form-datepicker   placeholder="Effective date (Choose a Date)" id="Date" class="form-control" v-model.trim="newDate"> </b-form-datepicker>
                 </div>
                 <div class="form-group">
                     <!-- TODO v-model -->
