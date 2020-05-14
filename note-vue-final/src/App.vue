@@ -1,13 +1,16 @@
 <template>
   <div id="app">
       <Nav></Nav>
-      <b-card img-src="https://picsum.photos//1000/300?image=1016" img-alt="Card image" img-top>
-
+      <b-card overlay text-variant="white" class="title" title="Your Company Name..." img-src="https://picsum.photos//1000/300?image=1016" img-alt="Card image" img-top>
+      <b-card-text id="text">
+      Your Company name can be displayed here<br> This app will help you keep your employess notified <br> for any task that is important to you<br> A Login page will be available soon 
+    </b-card-text>
+    </b-card>
   <b-container class="bv-example-row">
     <b-row>
       <b-col> 
         
-        <b-card  class="text-center" img-src="https://picsum.photos/600/300/?image=307" img-alt="Image" img-top  tag="article" style="max-width: 100rem;"  >
+        <b-card  class="text-center" img-src="https://mopinion.com/wp-content/uploads/2019/09/website-content-cover-image-1800x650.jpeg" img-alt="Image" img-top  tag="article" style="max-width: 100rem;"  >
           <NewNote v-on:note-added="newNoteAdded"></NewNote>
           </b-card>
 
